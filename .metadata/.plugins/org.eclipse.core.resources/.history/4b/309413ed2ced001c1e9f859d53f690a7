@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class ch4_1 {
+	public static void main(String args[]) {
+		Scanner stdin = new Scanner (System.in);
+		System.out.println("월을 입력하세요 : ");
+		String month = stdin.next();
+		String MtoS;
+		
+		switch(month)
+		{
+		case "December":
+		case "January":
+		case "February":
+			MtoS="겨울 입니다.";
+			break;
+		}
+		System.out.println(MtoS);
+	}
+}
